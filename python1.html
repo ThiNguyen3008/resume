@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dandel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- Custom Theme files -->
+    <link href="bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="default.css" type="text/css" rel="stylesheet" media="all">
+    <link href="all.css" rel="stylesheet">
+    <!-- font-awesome icons -->
+    <link href="popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="aos.css" rel="stylesheet">
+    <!-- //pop up box -->
+    <link rel="stylesheet" href="css/smoothbox.css" type='text/css' media="all" />
+    <!-- //Custom Theme files -->
+    <!-- web-fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Pacifico" rel="stylesheet">
+    <!-- //web-fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Fugaz+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="bannerinlogo">
+        <div class="container-fluid">
+        <div class="title">Dandel Shop Website</div>
+        <div class="note" >This is a cosmetics shop website that I designed and developed for front-end in my free time. Please click the link below to go to the website.</div>
+        <div class="note"><a href="https://dandelbeauty.000webhostapp.com/">https://dandelbeauty.000webhostapp.com/</a></div>
+        <div class="menu">
+            <a href="" id="menuToggle">
+                <span class="navClosed"></span>
+            </a>
+            <nav nowrap>
+                <a href="index.html">Back To Home</a>
+                <a href="java1.html">Go to next project</a>
+            </nav>
+        </div>
+    </div>
+        <div class="clearfix"> </div>
+    
+    <section class="section-agile about-skills" id="footer">
+        <div class="container-fluid">
+        <div class="footer-cpy" data-aos="fade-up">
+            <div class="footer-social text-center">
+                <h5 style="font-size: 3em; color:white">Thanks for reading !</h5>
+            </div>
+            <div class="cpy-right text-center">
+                <h6>Designed & Developed by Thi Nguyen</h6>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    </section>
+
+    <!-- //footer -->
+    <!-- js -->
+    <script defer src="all.js"></script>
+    <script src="jquery-2.2.3.min.js"></script>
+    <!-- //js -->
+    <script src="jquery.magnific-popup.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.popup-with-zoom-anim').magnificPopup({
+                type: 'inline',
+                fixedContentPos: false,
+                fixedBgPos: true,
+                overflowY: 'auto',
+                closeBtnInside: true,
+                preloader: false,
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-zoom-in'
+            });
+
+        });
+    </script>
+    <!-- //pop-up-box -->
+    <!-- testimonial -->
+    <script>
+        $(document).ready(function () {
+
+            $('.btn-vertical-slider').on('click', function () {
+
+                if ($(this).attr('data-slide') == 'next') {
+                    $('#myCarousel').carousel('next');
+                }
+                if ($(this).attr('data-slide') == 'prev') {
+                    $('#myCarousel').carousel('prev')
+                }
+
+            });
+        });
+    </script>
+    <!-- //testimonial -->
+
+    <!-- navigation -->
+    <script>
+        (function ($) {
+            // Menu Functions
+            $(document).ready(function () {
+                $('#menuToggle').click(function (e) {
+                    var $parent = $(this).parent('.menu');
+                    $parent.toggleClass("open");
+                    var navState = $parent.hasClass('open') ? "hide" : "show";
+                    $(this).attr("title", navState + " navigation");
+                    // Set the timeout to the animation length in the CSS.
+                    setTimeout(function () {
+                        console.log("timeout set");
+                        $('#menuToggle > span').toggleClass("navClosed").toggleClass(
+                            "navOpen");
+                    }, 200);
+                    e.preventDefault();
+                });
+            });
+        })(jQuery);
+    </script>
+    <!-- //navigation -->
+    <!-- gallery -->
+    <script src="js/smoothbox.jquery2.js"></script>
+    <!-- //gallery -->
+    <!-- start-smooth-scrolling -->
+    <script src="move-top.js"></script>
+    <script src="easing.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <!-- //end-smooth-scrolling -->
+    <!-- smooth-scrolling-of-move-up -->
+    <script>
+        $(document).ready(function () {
+            /*
+            var defaults = {
+            	container-fluidID: 'toTop', // fading element id
+            	container-fluidHoverID: 'toTopHover', // fading element hover id
+            	scrollSpeed: 1200,
+            	easingType: 'linear' 
+            };
+            */
+
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+    </script>
+
+
+    <!--<script language='JavaScript1.2'>
+        function disableselect(e){
+            return false
+        }
+        function reEnable(){
+        return true
+        }
+        document.onselectstart=new Function ("return false")
+        if (window.sidebar){
+        document.onmousedown=disableselect
+        document.onclick=reEnable
+        }
+    </script>
+     khoa code-->
+    <script src="SmoothScroll.min.js"></script>
+    <!-- //smooth-scrolling-of-move-up -->
+
+
+    <!-- Bootstrap core JavaScript
+ ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="bootstrap.js"></script>
+    <script src="aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 3000
+        });
+    </script>
+</body>
+
+</html>
