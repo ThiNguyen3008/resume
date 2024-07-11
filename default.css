@@ -265,7 +265,7 @@ nav {
 }
 /*chinh sua vach thu hai cua toggle*/
 #menuToggle span {
-    background: #7E6ABF;
+    background: #ffb3c6;
     display: block;
     height: 10%;
     left: 20%;
@@ -276,7 +276,7 @@ nav {
 /*chinh sua vach 1 và vach 3 cua toggle*/
 #menuToggle span:before,
 #menuToggle span:after {
-    background: #7E6ABF;
+    background: #ffb3c6;
     content: '';
     display: block;
     height: 100%;
