@@ -303,7 +303,7 @@ nav a {
 }
 /*chinh duong gach chan animation*/
 nav a:after {
-    background:#7E6ABF;
+    background:#ffb3c6;
     content: '';
     display: block;
     height: 2px;
