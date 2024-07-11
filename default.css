@@ -153,7 +153,7 @@ p.nls-p {
 
 /*doi vi tri chu toi la Ngoc xin chao*/
 .banner-slide {
-    width: 100%;
+    width: 100px;
     height:80px;
     margin:-80px auto;
     margin-left:100%;
@@ -161,7 +161,7 @@ p.nls-p {
     background: rgba(0, 0, 0, 0.16);
     outline: 10px solid rgba(255, 255, 255, 0.03);
     text-align: center;
-    padding-top:10px;
+    padding-top: 10px;
     /*chinh vi tri chu so voi khung*/
     
 }
