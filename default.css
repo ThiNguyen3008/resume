@@ -153,9 +153,9 @@ p.nls-p {
 
 /*doi vi tri chu toi la Ngoc xin chao*/
 .banner-slide {
-    width: 100%;
+    width: 150%;
     height:80px;
-    margin:80px auto;
+    margin:-80px auto;
     margin-left:90%;
     font-family: Arial, Helvetica, sans-serif;
     background: rgba(0, 0, 0, 0.16);
