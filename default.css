@@ -336,7 +336,7 @@ nav a:hover:after {
 /*chinh dau x*/
 .open #menuToggle span:before,
 .open #menuToggle span:after {
-    background:#C7C0A0;
+    background:#ffb3c6;
     top: 0;
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
