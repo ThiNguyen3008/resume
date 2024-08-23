@@ -265,7 +265,7 @@ nav {
 }
 /*chinh sua vach thu hai cua toggle*/
 #menuToggle span {
-    background: #ffb3c6;
+    background: #fa89a6;
     display: block;
     height: 10%;
     left: 20%;
@@ -276,7 +276,7 @@ nav {
 /*chinh sua vach 1 và vach 3 cua toggle*/
 #menuToggle span:before,
 #menuToggle span:after {
-    background: #ffb3c6;
+    background: #fa89a6;
     content: '';
     display: block;
     height: 100%;
@@ -303,7 +303,7 @@ nav a {
 }
 /*chinh duong gach chan animation*/
 nav a:after {
-    background:#ffb3c6;
+    background:#fa89a6;
     content: '';
     display: block;
     height: 2px;
@@ -336,7 +336,7 @@ nav a:hover:after {
 /*chinh dau x*/
 .open #menuToggle span:before,
 .open #menuToggle span:after {
-    background:#ffb3c6;
+    background:#fa89a6;
     top: 0;
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
