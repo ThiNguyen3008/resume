@@ -1782,7 +1782,8 @@ textarea {
         display:none;
     }
     .txtdeepshadow{
-        font-size:25px
+        font-size:25px;
+	margin-top: 0; 
     }
     .header-right, .header-right a, .header-right p, .header-right .fa-phone, .header-right .fa-envelope-o  {
        display: none
@@ -1840,7 +1841,7 @@ textarea {
         display:none;
     }
     .txtdeepshadow{
-        margin-top:150px;
+       margin-top: 0; 
         margin-left:280px;
         font-size:50px
     }
@@ -1921,7 +1922,8 @@ textarea {
         display:none;
     }
     .txtdeepshadow{
-        font-size:45px
+        font-size:45px;
+	margin-top: 0; 
     }
     .header-right, .header-right a, .header-right p, .header-right .fa-phone, .header-right .fa-envelope-o  {
        display: none
