@@ -2696,6 +2696,7 @@ textarea {
         height:190px;
     }
     .banner-text {
+	margin-top: 0;
         display:none;
     }
     .banner-slide{
