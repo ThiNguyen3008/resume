@@ -2696,7 +2696,6 @@ textarea {
         height:190px;
     }
     .banner-text {
-	margin-top: 0;
         display:none;
     }
     .banner-slide{
@@ -2704,7 +2703,8 @@ textarea {
     }
     .txtdeepshadow{
         font-size:25px; 
-        margin-left:100px
+        margin-left:100px;
+	margin-top: 0;    
     }
     .header-right, .header-right a, .header-right p, .header-right .fa-phone, .header-right .fa-envelope-o  {
        
