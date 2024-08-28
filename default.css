@@ -2287,7 +2287,8 @@ textarea {
     }
     .txtdeepshadow{
         margin-top:100px;
-        font-size:35px
+        font-size:35px;
+	margin-top: 0; 
     }
     .header-right, .header-right a, .header-right p, .header-right .fa-phone, .header-right .fa-envelope-o  {
        display: none
@@ -2403,7 +2404,8 @@ textarea {
         display:none;
     }
     .txtdeepshadow{
-        font-size:25px
+        font-size:25px;
+	margin-top: 0; 
     }
     .header-right, .header-right a, .header-right p, .header-right .fa-phone, .header-right .fa-envelope-o  {
        display: none
@@ -2474,7 +2476,8 @@ textarea {
     }
     .txtdeepshadow{
         margin-top:35px;
-        font-size:30px
+        font-size:30px;
+	margin-top: 0; 
     }
     .header-right, .header-right a, .header-right p, .header-right .fa-phone, .header-right .fa-envelope-o  {
        display: none
@@ -2575,7 +2578,8 @@ textarea {
     }
     .txtdeepshadow{
         margin-top:20px;
-        font-size:30px
+        font-size:30px;
+	margin-top: 0; 
     }
     .header-right, .header-right a, .header-right p, .header-right .fa-phone, .header-right .fa-envelope-o  {
        display: none
@@ -2647,7 +2651,8 @@ textarea {
 
      .txtdeepshadow {
           margin-left: 200px;
-          font-size: 20px
+          font-size: 20px;
+	  margin-top: 0; 
      }
 
      .header-right, .header-right a, .header-right p, .header-right .fa-phone, .header-right .fa-envelope-o {
