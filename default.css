@@ -2009,7 +2009,7 @@ textarea {
     .txtdeepshadow{
         font-size:45px;
         margin-left:250px;
-        margin-top: 100px
+        margin-top: 0;
     }
     .header-right, .header-right a, .header-right p, .header-right .fa-phone, .header-right .fa-envelope-o  {
        display: none
@@ -2106,7 +2106,8 @@ textarea {
     }
     .txtdeepshadow{
         margin-left:200px;
-        font-size:45px
+        font-size:45px;
+	margin-top: 0; 
     }
     .header-right, .header-right a, .header-right p, .header-right .fa-phone, .header-right .fa-envelope-o  {
        display: none
