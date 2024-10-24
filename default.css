@@ -627,6 +627,12 @@ a.email:hover, a.email:active {color:  rgb(122, 126, 134)}
     display: inline-block;
     margin-bottom: 10px;
 }
+.about-skills h7 {
+    font-weight: 500;
+    font-size: 2em;
+    padding: 0.5em 0.5em;
+    color: #CED1D9
+}
 .title-skills2 {
     background-color: #8d9096;
     border: none;
