@@ -660,7 +660,8 @@ a.email:hover, a.email:active {color:  rgb(122, 126, 134)}
     background-color: #C2C5CC
 }
 #footer {
-    background-color: #3D3E40
+    background-color: #3D3E40;
+    margin-bottom:0;
 }
 
 a.sb {
